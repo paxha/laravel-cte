@@ -1,8 +1,8 @@
 <?php
 
-namespace Staudenmeir\LaravelCte\Eloquent;
+namespace Paxha\LaravelCte\Eloquent;
 
-use Staudenmeir\LaravelCte\Query\Builder;
+use Paxha\LaravelCte\Query\Builder;
 
 trait QueriesExpressions
 {

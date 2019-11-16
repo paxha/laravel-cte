@@ -1,9 +1,9 @@
 <?php
 
-namespace Staudenmeir\LaravelCte\Query\Grammars;
+namespace Paxha\LaravelCte\Query\Grammars;
 
 use Illuminate\Database\Query\Grammars\SQLiteGrammar as Base;
-use Staudenmeir\LaravelCte\Query\Builder;
+use Paxha\LaravelCte\Query\Builder;
 
 class SQLiteGrammar extends Base
 {

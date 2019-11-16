@@ -20,7 +20,7 @@ Supports Laravel 5.5+.
  
 ## Installation
 
-    composer require staudenmeir/laravel-cte:"^1.0"
+    composer require paxha/laravel-cte:"^1.0"
 
 ## Usage
 
@@ -104,7 +104,7 @@ In Laravel 5.5–5.7, this requires the `QueriesExpressions` trait:
 ```php
 class User extends Model
 {
-    use \Staudenmeir\LaravelCte\Eloquent\QueriesExpressions;
+    use \Paxha\LaravelCte\Eloquent\QueriesExpressions;
 }
 
 $query = User::whereNull('parent_id')
@@ -120,14 +120,14 @@ $tree = User::from('tree')
 
 #### Recursive Relationships
 
-If you want to implement recursive relationships, you can use this package: [staudenmeir/laravel-adjacency-list](https://github.com/staudenmeir/laravel-adjacency-list)
+If you want to implement recursive relationships, you can use this package: [paxha/laravel-adjacency-list](https://github.com/paxha/laravel-adjacency-list)
 
 ### Lumen
 
 If you are using Lumen, you have to instantiate the query builder manually:
 
 ```php
-$builder = new \Staudenmeir\LaravelCte\Query\Builder(app('db')->connection());
+$builder = new \Paxha\LaravelCte\Query\Builder(app('db')->connection());
 
 $result = $builder->from(...)->withExpression(...)->get();
 ```

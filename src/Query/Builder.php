@@ -1,16 +1,16 @@
 <?php
 
-namespace Staudenmeir\LaravelCte\Query;
+namespace Paxha\LaravelCte\Query;
 
 use Illuminate\Database\Connection;
 use Illuminate\Database\Query\Builder as Base;
 use Illuminate\Database\Query\Grammars\Grammar;
 use Illuminate\Database\Query\Processors\Processor;
 use RuntimeException;
-use Staudenmeir\LaravelCte\Query\Grammars\MySqlGrammar;
-use Staudenmeir\LaravelCte\Query\Grammars\PostgresGrammar;
-use Staudenmeir\LaravelCte\Query\Grammars\SQLiteGrammar;
-use Staudenmeir\LaravelCte\Query\Grammars\SqlServerGrammar;
+use Paxha\LaravelCte\Query\Grammars\MySqlGrammar;
+use Paxha\LaravelCte\Query\Grammars\PostgresGrammar;
+use Paxha\LaravelCte\Query\Grammars\SQLiteGrammar;
+use Paxha\LaravelCte\Query\Grammars\SqlServerGrammar;
 
 class Builder extends Base
 {

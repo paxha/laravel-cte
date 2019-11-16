@@ -1,14 +1,14 @@
 <?php
 
-namespace Staudenmeir\LaravelCte\Connectors;
+namespace Paxha\LaravelCte\Connectors;
 
 use Illuminate\Database\Connection;
 use Illuminate\Database\Connectors\ConnectionFactory as Base;
 use InvalidArgumentException;
-use Staudenmeir\LaravelCte\Connections\MySqlConnection;
-use Staudenmeir\LaravelCte\Connections\PostgresConnection;
-use Staudenmeir\LaravelCte\Connections\SQLiteConnection;
-use Staudenmeir\LaravelCte\Connections\SqlServerConnection;
+use Paxha\LaravelCte\Connections\MySqlConnection;
+use Paxha\LaravelCte\Connections\PostgresConnection;
+use Paxha\LaravelCte\Connections\SQLiteConnection;
+use Paxha\LaravelCte\Connections\SqlServerConnection;
 
 class ConnectionFactory extends Base
 {

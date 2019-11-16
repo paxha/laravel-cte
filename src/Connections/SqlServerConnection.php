@@ -1,6 +1,6 @@
 <?php
 
-namespace Staudenmeir\LaravelCte\Connections;
+namespace Paxha\LaravelCte\Connections;
 
 use Illuminate\Database\SqlServerConnection as Base;
 

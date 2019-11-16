@@ -1,9 +1,9 @@
 <?php
 
-namespace Staudenmeir\LaravelCte;
+namespace Paxha\LaravelCte;
 
 use Illuminate\Support\ServiceProvider;
-use Staudenmeir\LaravelCte\Connectors\ConnectionFactory;
+use Paxha\LaravelCte\Connectors\ConnectionFactory;
 
 class DatabaseServiceProvider extends ServiceProvider
 {

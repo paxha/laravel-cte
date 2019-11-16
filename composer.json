@@ -1,11 +1,15 @@
 {
-    "name": "staudenmeir/laravel-cte",
+    "name": "paxha/laravel-cte",
     "description": "Laravel queries with common table expressions",
     "license": "MIT",
     "authors": [
         {
             "name": "Jonas Staudenmeir",
             "email": "mail@jonas-staudenmeir.de"
+        },
+        {
+            "name": "Hassan Raza Pasha",
+            "email": "e.hassanrazapasha@gmail.com"
         }
     ],
     "require": {
@@ -18,7 +22,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Staudenmeir\\LaravelCte\\": "src/"
+            "Paxha\\LaravelCte\\": "src/"
         }
     },
     "autoload-dev": {
@@ -29,10 +33,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Staudenmeir\\LaravelCte\\DatabaseServiceProvider"
+                "Paxha\\LaravelCte\\DatabaseServiceProvider"
             ]
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable" : true
+    "prefer-stable": true
 }
